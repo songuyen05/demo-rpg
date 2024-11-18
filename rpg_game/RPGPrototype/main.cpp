@@ -340,7 +340,7 @@ void create_monster(Fightable*& in_out, const Player* base_calc) {
 	in_out->xpos = Random::NTK(1, 11);
 	in_out->ypos = Random::NTK(1, 11);
 
-	while (the_map[in_out->xpos][in_out->ypos] == 'P' || the_map[in_out->xpos][in_out->ypos] == 'x') {
+	while (the_map[in_out->xpos][in_out->ypos] == 'P' || the_map[in_out->xpos][in_out->ypos] == '|' || the_map[in_out->xpos][in_out->ypos] == '-') {
 		in_out->xpos = Random::NTK(1, 11);
 		in_out->ypos = Random::NTK(1, 11);
 	}
@@ -434,7 +434,7 @@ void moveplayeronmap(Player& player1) {
 
 	}
 	// check that the player hasn't moved into a wall
-	if (the_map[player1.xpos][player1.ypos] != 'x') {
+	if (the_map[player1.xpos][player1.ypos] != '-' && the_map[player1.xpos][player1.ypos] != '|') {
 		// draw the character at new location
 		the_map[player1.xpos][player1.ypos] = 'P';
 		// make old location a black area
