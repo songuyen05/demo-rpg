@@ -12,8 +12,8 @@ void display_character_sheet() {
 	system("CLS");
 	std::cout
 		<< "Your Character\n"
-		<< "L: " << MainCharacter->us.GetLevel() << " XP: " << MainCharacter->us.GetCurrentEXP() << " NEXT: " << MainCharacter->us.GetEXPToNextLevel() << '\n'
-		<< "Hit Points: " << MainCharacter->us.GetCurrentHP() << "/" << MainCharacter->us.GetMaxHP()
+		<< "LEVEL: " << MainCharacter->us.GetLevel() << " XP: " << MainCharacter->us.GetCurrentEXP() << " XP UNTIL NEXT LEVEL: " << MainCharacter->us.GetEXPToNextLevel() << '\n'
+		<< "Hit Points: " << MainCharacter->us.GetCurrentHP() << "/" << MainCharacter->us.GetMaxHP() << " Mana Points: " << MainCharacter->us.GetCurrentMP() << "/" << MainCharacter->us.GetMaxMP() << '\n'
 		<< " Armor: " << MainCharacter->us.GetTotalArmor() << " Resistance: " << MainCharacter->us.GetTotalElementRes() << '\n'
 		<< "STR: " << MainCharacter->us.GetTotalStrength() << " AGI: " << MainCharacter->us.GetTotalAgility() << " INT: " << MainCharacter->us.GetTotalIntellect() << '\n'
 		<< "\n\Equipped Gear\n";
@@ -308,7 +308,7 @@ Item* drop_random_item() {
 		return ItemManager::CreateArmor("Neck Guard", CoreStats(0, 0, 0, 1, 1), ARMORSLOT::NECK);
 	}
 	else if (drop_seed < 54) {
-		return ItemManager::CreateWeapon("1H Sword", CoreStats(0, 0, 0, 0, 0), WEAPONSLOT::MELEE, 2, 3);
+		return ItemManager::CreateWeapon("1-Handed Sword", CoreStats(0, 0, 0, 0, 0), WEAPONSLOT::MELEE, 2, 3);
 	}
 	else if (drop_seed < 60) {
 		return ItemManager::CreateWeapon("Bow", CoreStats(0, 0, 0, 0, 0), WEAPONSLOT::RANGED, 2, 3);
@@ -337,12 +337,12 @@ void create_monster(Fightable*& in_out, const Player* base_calc) {
 
 	in_out = new Fightable(Random::NTK(lowest_hp, max_hp), lowest_dam, max_dam);
 
-	in_out->xpos = Random::NTK(1, 11);
-	in_out->ypos = Random::NTK(1, 11);
+	in_out->xpos = Random::NTK(1, 19);
+	in_out->ypos = Random::NTK(1, 19);
 
 	while (the_map[in_out->xpos][in_out->ypos] == 'P' || the_map[in_out->xpos][in_out->ypos] == '|' || the_map[in_out->xpos][in_out->ypos] == '-') {
-		in_out->xpos = Random::NTK(1, 11);
-		in_out->ypos = Random::NTK(1, 11);
+		in_out->xpos = Random::NTK(1, 19);
+		in_out->ypos = Random::NTK(1, 19);
 	}
 
 	the_map[in_out->xpos][in_out->ypos] = 'M';
@@ -452,8 +452,8 @@ void moveplayeronmap(Player& player1) {
 
 void showmap() {
 	system("CLS");
-	for (int i = 0; i < 12; i++) {
-		for (int j = 0; j < 13; j++) {
+	for (int i = 0; i < 20; i++) {
+		for (int j = 0; j < 21; j++) {
 			std::cout << the_map[i][j];
 		}
 		std::cout << '\n';

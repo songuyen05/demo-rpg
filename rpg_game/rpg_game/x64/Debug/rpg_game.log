@@ -1,20 +1,2 @@
-﻿  ability.cpp
-  armor.cpp
-  buff.cpp
-  cleric.cpp
-  corestats.cpp
-  monster.cpp
-  random.cpp
-  wizard.cpp
-  weapon.cpp
-  warrior.cpp
-  rogue.cpp
-  potion.cpp
-  item.cpp
-  item_manager.cpp
-  playercharacter.cpp
-  pointwell.cpp
-  statblock.cpp
-  types.cpp
-  Generating Code...
+﻿  warrior.cpp
   rpg_game.vcxproj -> C:\Users\songu\OneDrive\Documents\GitHub\demo-rpg\rpg_game\x64\Debug\rpg_game.lib

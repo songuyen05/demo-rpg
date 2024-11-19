@@ -1,4 +1,1 @@
-﻿  main.cpp
-C:\Users\songu\OneDrive\Documents\GitHub\demo-rpg\rpg_game\RPGPrototype\main.cpp(19,6): warning C4129: 'E': unrecognized character escape sequence
-C:\Users\songu\OneDrive\Documents\GitHub\demo-rpg\rpg_game\RPGPrototype\main.cpp(62,15): warning C4129: 'P': unrecognized character escape sequence
-  RPGPrototype.vcxproj -> C:\Users\songu\OneDrive\Documents\GitHub\demo-rpg\rpg_game\x64\Debug\RPGPrototype.exe
+﻿  RPGPrototype.vcxproj -> C:\Users\songu\OneDrive\Documents\GitHub\demo-rpg\rpg_game\x64\Debug\RPGPrototype.exe
