@@ -1,8 +1,8 @@
 #include "ability.h"
 
 
-Ability::Ability(std::string name, uint32_t hpe, Buff* b, uint32_t cost, uint32_t cd, ABILITYTARGET t, ABILITYSCALER s)
-    : Name(name), HpEffect(hpe), GivenBuff(b), Cost(cost), Cooldown(cd), Target(t), Scaler(s) {
+Ability::Ability(std::string name, uint32_t hpe, uint32_t mpc, Buff* b, uint32_t cost, uint32_t cd, ABILITYTARGET t, ABILITYSCALER s)
+    : Name(name), HpEffect(hpe), MpCost(mpc), GivenBuff(b), Cost(cost), Cooldown(cd), Target(t), Scaler(s) {
     CooldownLeft = 0u;
 }
 
@@ -26,6 +26,11 @@ const uint32_t Ability::GetCooldown() const noexcept
 const uint32_t Ability::GetHPEffect() const noexcept
 {
     return HpEffect;
+}
+
+const uint32_t Ability::GetMPCost() const noexcept
+{
+    return MpCost;
 }
 
 const Buff* Ability::GetBuff() const noexcept

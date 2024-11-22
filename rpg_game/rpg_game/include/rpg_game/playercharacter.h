@@ -75,6 +75,7 @@ public:
     void TakeDamage(welltype amt) noexcept;
     void Heal(welltype amt) noexcept;
     void ApplyBuff(Buff _buff) noexcept;
+    void mpReduction(welltype amt) noexcept;
 
 private:
     PlayerCharacterDelegate* _player_class;

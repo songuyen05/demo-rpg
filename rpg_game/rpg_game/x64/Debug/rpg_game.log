@@ -1,2 +1,8 @@
-﻿  warrior.cpp
+﻿  cleric.cpp
+  item_manager.cpp
+  playercharacter.cpp
+  rogue.cpp
+  warrior.cpp
+  wizard.cpp
+  Generating Code...
   rpg_game.vcxproj -> C:\Users\songu\OneDrive\Documents\GitHub\demo-rpg\rpg_game\x64\Debug\rpg_game.lib

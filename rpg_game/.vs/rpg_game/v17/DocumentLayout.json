@@ -3,32 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\rogue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\include\\rpg_game\\rogue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{3B88308B-8CCD-4457-ACBF-FDC855C6BAF6}|RPGPrototype\\RPGPrototype.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\RPGPrototype\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{3B88308B-8CCD-4457-ACBF-FDC855C6BAF6}|RPGPrototype\\RPGPrototype.vcxproj|solutionrelative:RPGPrototype\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\rogue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\rogue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\playercharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\playercharacter.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\playercharacter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\include\\rpg_game\\playercharacter.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\ability.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\ability.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\wizard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\wizard.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\include\\rpg_game\\warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\cleric.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\cleric.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3B88308B-8CCD-4457-ACBF-FDC855C6BAF6}|RPGPrototype\\RPGPrototype.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\RPGPrototype\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{3B88308B-8CCD-4457-ACBF-FDC855C6BAF6}|RPGPrototype\\RPGPrototype.vcxproj|solutionrelative:RPGPrototype\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\ability.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\include\\rpg_game\\ability.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\warrior.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\pointwell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\include\\rpg_game\\pointwell.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\rogue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\include\\rpg_game\\rogue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B88308B-8CCD-4457-ACBF-FDC855C6BAF6}|RPGPrototype\\RPGPrototype.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\RPGPrototype\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3B88308B-8CCD-4457-ACBF-FDC855C6BAF6}|RPGPrototype\\RPGPrototype.vcxproj|solutionrelative:RPGPrototype\\pch.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\rogue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\rogue.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0ABEB5A5-6780-418A-BB9F-15E2B8C50722}|rpg_game\\rpg_game.vcxproj|solutionrelative:rpg_game\\include\\rpg_game\\warrior.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,37 +62,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "rogue.h",
-              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\rogue.h",
-              "RelativeDocumentMoniker": "rpg_game\\include\\rpg_game\\rogue.h",
-              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\rogue.h",
-              "RelativeToolTip": "rpg_game\\include\\rpg_game\\rogue.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-19T06:43:42.21Z",
+              "DocumentIndex": 1,
+              "Title": "playercharacter.cpp",
+              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\playercharacter.cpp",
+              "RelativeDocumentMoniker": "rpg_game\\playercharacter.cpp",
+              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\playercharacter.cpp",
+              "RelativeToolTip": "rpg_game\\playercharacter.cpp",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAAAB8BAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-22T07:01:46.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "playercharacter.h",
+              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\playercharacter.h",
+              "RelativeDocumentMoniker": "rpg_game\\include\\rpg_game\\playercharacter.h",
+              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\playercharacter.h",
+              "RelativeToolTip": "rpg_game\\include\\rpg_game\\playercharacter.h",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-22T07:00:58.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "pointwell.h",
+              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\pointwell.h",
+              "RelativeDocumentMoniker": "rpg_game\\include\\rpg_game\\pointwell.h",
+              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\pointwell.h",
+              "RelativeToolTip": "rpg_game\\include\\rpg_game\\pointwell.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-21T07:28:47.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "wizard.cpp",
               "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\wizard.cpp",
               "RelativeDocumentMoniker": "rpg_game\\wizard.cpp",
               "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\wizard.cpp",
               "RelativeToolTip": "rpg_game\\wizard.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-11-19T06:42:45.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\RPGPrototype\\main.cpp",
+              "RelativeDocumentMoniker": "RPGPrototype\\main.cpp",
+              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\RPGPrototype\\main.cpp",
+              "RelativeToolTip": "RPGPrototype\\main.cpp",
+              "ViewState": "AgIAANoAAAAAAAAAAAAAAAkBAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-18T02:16:14.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "warrior.cpp",
+              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\warrior.cpp",
+              "RelativeDocumentMoniker": "rpg_game\\warrior.cpp",
+              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\warrior.cpp",
+              "RelativeToolTip": "rpg_game\\warrior.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-19T06:36:47.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ability.cpp",
+              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\ability.cpp",
+              "RelativeDocumentMoniker": "rpg_game\\ability.cpp",
+              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\ability.cpp",
+              "RelativeToolTip": "rpg_game\\ability.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-20T08:17:52.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ability.h",
+              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\ability.h",
+              "RelativeDocumentMoniker": "rpg_game\\include\\rpg_game\\ability.h",
+              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\ability.h",
+              "RelativeToolTip": "rpg_game\\include\\rpg_game\\ability.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-20T08:15:36.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "cleric.cpp",
+              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\cleric.cpp",
+              "RelativeDocumentMoniker": "rpg_game\\cleric.cpp",
+              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\cleric.cpp",
+              "RelativeToolTip": "rpg_game\\cleric.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-20T08:21:05.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "warrior.h",
               "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\warrior.h",
               "RelativeDocumentMoniker": "rpg_game\\include\\rpg_game\\warrior.h",
@@ -76,38 +191,35 @@
               "RelativeToolTip": "rpg_game\\include\\rpg_game\\warrior.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-19T06:40:46.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T06:40:46.997Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "warrior.cpp",
-              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\warrior.cpp",
-              "RelativeDocumentMoniker": "rpg_game\\warrior.cpp",
-              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\warrior.cpp",
-              "RelativeToolTip": "rpg_game\\warrior.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-19T06:36:47.209Z",
-              "EditorCaption": ""
+              "DocumentIndex": 9,
+              "Title": "rogue.h",
+              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\rogue.h",
+              "RelativeDocumentMoniker": "rpg_game\\include\\rpg_game\\rogue.h",
+              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\include\\rpg_game\\rogue.h",
+              "RelativeToolTip": "rpg_game\\include\\rpg_game\\rogue.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-11-19T06:43:42.21Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 11,
               "Title": "rogue.cpp",
               "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\rogue.cpp",
               "RelativeDocumentMoniker": "rpg_game\\rogue.cpp",
               "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\rpg_game\\rogue.cpp",
               "RelativeToolTip": "rpg_game\\rogue.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-19T03:21:59.589Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T03:21:59.589Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "pch.h",
               "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\RPGPrototype\\pch.h",
               "RelativeDocumentMoniker": "RPGPrototype\\pch.h",
@@ -116,19 +228,6 @@
               "ViewState": "AgIAAAkAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-11-18T02:19:31.822Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\RPGPrototype\\main.cpp",
-              "RelativeDocumentMoniker": "RPGPrototype\\main.cpp",
-              "ToolTip": "C:\\Users\\songu\\OneDrive\\Documents\\GitHub\\demo-rpg\\rpg_game\\RPGPrototype\\main.cpp",
-              "RelativeToolTip": "RPGPrototype\\main.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAACOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-11-18T02:16:14.044Z",
-              "EditorCaption": ""
             }
           ]
         }

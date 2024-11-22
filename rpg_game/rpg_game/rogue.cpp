@@ -9,6 +9,6 @@ Rogue::Rogue() : PlayerCharacterDelegate() {
 void Rogue::level_char_up() noexcept {
     LEVELUP
         if (GetLevel() == 2) {
-            Abilities.emplace_back(new Ability("PreciseAttack", 6u, nullptr, 0u, 3u, ABILITYTARGET::ENEMY, ABILITYSCALER::AGI));
+            Abilities.emplace_back(new Ability("PreciseAttack", 6u, 4u, nullptr, 0u, 3u, ABILITYTARGET::ENEMY, ABILITYSCALER::AGI));
         }
 }

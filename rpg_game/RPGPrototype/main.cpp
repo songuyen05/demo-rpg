@@ -214,42 +214,57 @@ bool combat_ability_selection() {
 			break;
 		case 'u':
 			if (current_abilities[selected_ability]->GetTarget() == ABILITYTARGET::ENEMY) {
-				int total_damage = 0;
-				total_damage += current_abilities[selected_ability]->GetHPEffect();
-				switch (current_abilities[selected_ability]->GetScaler()) {
-				case ABILITYSCALER::STR:
-					total_damage += (int)(MainCharacter->us.GetTotalStrength() / 2.f);
-					break;
-				case ABILITYSCALER::INT:
-					total_damage += (int)(MainCharacter->us.GetTotalIntellect() / 2.f);
-					break;
-				case ABILITYSCALER::AGI:
-					total_damage += (int)(MainCharacter->us.GetTotalAgility() / 2.f);
-					break;
-				default:
-					break;
+				int total_mana_cost = 0;
+				total_mana_cost += current_abilities[selected_ability]->GetMPCost();
+				if (!(MainCharacter->us.GetCurrentMP() < total_mana_cost)) {
+					int total_damage = 0;
+					total_damage += current_abilities[selected_ability]->GetHPEffect();
+					switch (current_abilities[selected_ability]->GetScaler()) {
+					case ABILITYSCALER::STR:
+						total_damage += (int)(MainCharacter->us.GetTotalStrength() / 2.f);
+						MainCharacter->us.mpReduction(total_mana_cost);
+						break;
+					case ABILITYSCALER::INT:
+						total_damage += (int)(MainCharacter->us.GetTotalIntellect() / 2.f);
+						MainCharacter->us.mpReduction(total_mana_cost);
+						break;
+					case ABILITYSCALER::AGI:
+						total_damage += (int)(MainCharacter->us.GetTotalAgility() / 2.f);
+						MainCharacter->us.mpReduction(total_mana_cost);
+						break;
+					default:
+						break;
+					}
+					CurrentMonster->monster.HP.ReduceCurrent(total_damage);
+					action_used = true;
 				}
-				CurrentMonster->monster.HP.ReduceCurrent(total_damage);
 			}
 			else { // its a heal (probably)
-				int total_heal = 0;
-				total_heal += current_abilities[selected_ability]->GetHPEffect();
-				switch (current_abilities[selected_ability]->GetScaler()) {
-				case ABILITYSCALER::STR:
-					total_heal += (int)(MainCharacter->us.GetTotalStrength() / 2.f);
-					break;
-				case ABILITYSCALER::INT:
-					total_heal += (int)(MainCharacter->us.GetTotalIntellect() / 2.f);
-					break;
-				case ABILITYSCALER::AGI:
-					total_heal += (int)(MainCharacter->us.GetTotalAgility() / 2.f);
-					break;
-				default:
-					break;
-				}
-				MainCharacter->us.Heal(total_heal);
+				int total_mana_cost = 0;
+				total_mana_cost += current_abilities[selected_ability]->GetMPCost();
+				if (!(MainCharacter->us.GetCurrentMP() < total_mana_cost)) {
+					int total_heal = 0;
+					total_heal += current_abilities[selected_ability]->GetHPEffect();
+					switch (current_abilities[selected_ability]->GetScaler()) {
+					case ABILITYSCALER::STR:
+						total_heal += (int)(MainCharacter->us.GetTotalStrength() / 2.f);
+						MainCharacter->us.mpReduction(total_mana_cost);
+						break;
+					case ABILITYSCALER::INT:
+						total_heal += (int)(MainCharacter->us.GetTotalIntellect() / 2.f);
+						MainCharacter->us.mpReduction(total_mana_cost);
+						break;
+					case ABILITYSCALER::AGI:
+						total_heal += (int)(MainCharacter->us.GetTotalAgility() / 2.f);
+						MainCharacter->us.mpReduction(total_mana_cost);
+						break;
+					default:
+						break;
+					}
+					MainCharacter->us.Heal(total_heal);
+					action_used = true;
+				} // need to fix monster not attacking back, and add text saying not enough MP
 			}
-			action_used = true;
 			break;
 		default:
 			break;

@@ -284,4 +284,4 @@ void PlayerCharacter::Heal(welltype amt) noexcept { _player_class->HP->IncreaseC
 void PlayerCharacter::ApplyBuff(Buff _buff) noexcept {
     _player_class->Buffs.push_back(_buff);
 }
-
+void PlayerCharacter::mpReduction(welltype amt) noexcept { _player_class->MP->ReduceCurrent(amt); }

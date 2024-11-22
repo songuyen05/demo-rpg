@@ -10,6 +10,7 @@ class  Ability {
 public:
 Ability(std::string name = "unnamed",
     uint32_t hpe = 1u,
+    uint32_t mpc = 0u,
     Buff* b = nullptr,
     uint32_t cost = 0u,
     uint32_t cd = 1u,
@@ -23,6 +24,7 @@ uint32_t CooldownLeft;
 [[nodiscard]] const std::string GetName() const noexcept;
 [[nodiscard]] const uint32_t GetCooldown() const noexcept;
 [[nodiscard]] const uint32_t GetHPEffect() const noexcept;
+[[nodiscard]] const uint32_t GetMPCost() const noexcept;
 [[nodiscard]] const Buff* GetBuff() const noexcept;
 [[nodiscard]] const uint32_t GetCost() const noexcept;
 [[nodiscard]] const ABILITYTARGET GetTarget() const noexcept;
@@ -31,6 +33,7 @@ uint32_t CooldownLeft;
 private:
 std::string Name;
 uint32_t HpEffect;
+uint32_t MpCost;
 Buff* GivenBuff;
 uint32_t Cost;      // assume mp if there is a cost
 uint32_t Cooldown;  // number of rounds you have to wait before using it again
